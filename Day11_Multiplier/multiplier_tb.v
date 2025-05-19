@@ -51,20 +51,6 @@ module multiplier_tb;
         end
         $finish;
     end
-/*
-	initial begin
-		for(i=0;i<4;i=i+1) begin
-		  {A1,A0}=i;
-		  for(j=0;j<4;j=j+i) begin
-		    {B1,B0}=j;
-		    #10;
-		  end
-		end
-	end
-	
-	initial
-	 $monitor("value are A=%b%b,B=%b%b,P=%b%b%b%b",A0,A1,B0,B1,P0,P1,P2,P3);
-	 initial #200 $finish;
-  */    
+
 endmodule
 
