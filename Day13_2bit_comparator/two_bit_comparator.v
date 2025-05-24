@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module two_bit_comparator(
+module one_bit_comparator(
     input a,
     input b,
     output lesser,
